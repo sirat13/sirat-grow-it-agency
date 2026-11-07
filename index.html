@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sirat Grow It Agency</title>
+<meta name="description" content="Creative services, channel support, video editing and social media solutions.">
+<style>
+:root{--navy:#061638;--blue:#087be5;--green:#12bd4c;--ink:#102448;--muted:#61728b;--line:#d7e5f5;--pale:#f1f8ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f1f8f7;color:var(--ink);line-height:1.5}a{text-decoration:none;color:inherit}.wrap{width:min(1160px,93%);margin:auto}
+header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #001b3610}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-size:20px;font-weight:900;color:var(--navy)}.brand span{color:#15bd4b}.navlinks{display:flex;gap:20px;font-size:14px;font-weight:700}.wa{background:#13b94c;color:white;padding:12px 18px;border-radius:28px;font-weight:900}
+.hero{background:radial-gradient(circle at 54% 35%,#137fd6,#092b68 52%,#061638);color:white;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 45%,#15d5ff20 45%,transparent 70%);pointer-events:none}.hero-inner{position:relative;z-index:1;padding:58px 0;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:25px}.kicker{color:#6cffb0;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:900}.hero h1{font-size:clamp(36px,5vw,62px);line-height:1.03;margin:12px 0}.hero h1 span{color:#70ff35}.hero p{color:#d9eaff;max-width:610px}.checks{display:flex;gap:12px 20px;flex-wrap:wrap;margin:22px 0;font-weight:800}.checks span:before{content:"✓";background:#21d84e;color:#043b26;border-radius:50%;padding:2px 7px;margin-right:7px}.hero-art{min-height:260px;display:grid;place-items:center;position:relative}.play{width:210px;height:150px;border-radius:38px;background:linear-gradient(145deg,#ff5757,#c60018);box-shadow:0 22px 35px #00112f88;display:grid;place-items:center;font-size:72px;transform:rotate(-7deg)}.play:after{content:"▶";color:white;text-shadow:0 4px 4px #8b001b}.chart{position:absolute;right:0;top:10px;color:#60f43d;font-size:70px}.btn{border:0;border-radius:11px;padding:13px 19px;background:linear-gradient(100deg,#14c94c,#04a7c4);color:white;font-weight:900;cursor:pointer;display:inline-block}.btn.dark{background:#071a42}.btn.light{background:white;color:#08234c;border:1px solid var(--line)}
+section{padding:48px 0}.heading{text-align:center;margin-bottom:26px}.heading small{color:#078f9c;letter-spacing:2px;font-weight:900}.heading h2{font-size:clamp(28px,4vw,40px);margin:5px;color:#071b43}.heading p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:white;border:1px solid var(--line);border-radius:19px;overflow:hidden;box-shadow:0 12px 30px #09285815}.poster{height:250px;padding:22px 24px;color:#fff;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}.poster:before{content:"";position:absolute;width:250px;height:250px;border:1px solid #ffffff55;border-radius:50%;right:-60px;top:-100px;box-shadow:0 0 0 24px #ffffff12,0 0 0 48px #ffffff0c}.poster:after{content:"";position:absolute;right:20px;bottom:-15px;width:150px;height:115px;background:#ffffff22;clip-path:polygon(0 100%,25% 55%,43% 75%,70% 15%,100% 0,100% 100%)}.p1{background:linear-gradient(125deg,#05285e,#087cda 58%,#6b229b)}.p2{background:linear-gradient(125deg,#075f64,#0c7eb5,#10245d)}.p3{background:linear-gradient(125deg,#322071,#7836b2,#087cba)}.p4{background:linear-gradient(125deg,#851747,#d02a78,#43217e)}.p5{background:linear-gradient(125deg,#064c82,#147fd3,#30328c)}.p6{background:linear-gradient(125deg,#764016,#bb701c,#622878)}.p7{background:linear-gradient(125deg,#07533e,#169c68,#173b82)}.p8{background:linear-gradient(125deg,#142c73,#126c9e,#4c2788)}.p9{background:linear-gradient(125deg,#661e52,#a52d6c,#173b7d)}.p10{background:linear-gradient(125deg,#144879,#1675aa,#452987)}.ptop{font-size:11px;letter-spacing:1.6px;font-weight:900;z-index:1}.poster h3{font-size:clamp(27px,3.5vw,38px);line-height:.98;margin:9px 0;text-transform:uppercase;max-width:78%;z-index:1;text-shadow:0 2px 5px #00112f66}.metric{font-size:16px;font-weight:900;max-width:80%;z-index:1}.pfoot{display:inline-block;align-self:flex-start;background:#ffffff25;border:1px solid #ffffff75;border-radius:8px;padding:7px 10px;font-weight:900;font-size:12px;z-index:1}.poster-icon{position:absolute;right:25px;bottom:38px;font-size:76px;filter:drop-shadow(0 10px 7px #00102f66);z-index:1}
+.body{padding:20px 22px 23px}.body h3{margin:0 0 8px;font-size:22px}.body p{font-size:14px;color:#5d6d83}.body ul{padding-left:19px;font-size:14px;color:#344761}.body li{margin:5px 0}.delivery{font-size:12px!important;color:#07865c!important;font-weight:800}.price{font-size:23px;font-weight:950;color:#09275c}.old{text-decoration:line-through;color:#8492a6;font-size:14px}.discount{font-size:11px;color:#087d40;background:#e7fff0;padding:5px 8px;border-radius:18px;font-weight:900}
+.paygrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.pay{background:#fff;border:1px solid #cddff2;border-radius:14px;box-shadow:0 5px 15px #001c4010;padding:17px 10px;text-align:center;cursor:pointer;font-weight:900;color:#18345d;min-width:0}.paylogo{height:64px;width:100%;max-width:160px;margin:0 auto 9px;display:flex;align-items:center;justify-content:center;border-radius:9px;background:#fff;font-size:14px;font-weight:1000;color:#123d7b;overflow:hidden}.paylogo img{display:block;width:100%;height:100%;object-fit:contain;padding:3px}.pay small{display:block;color:#0b9e4b;margin-top:5px}
+.reviewgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.review{background:white;border:1px solid var(--line);border-radius:15px;padding:18px}.avatar{width:42px;height:42px;border-radius:50%;display:inline-grid;place-items:center;background:linear-gradient(130deg,#10c54c,#168bdb);color:white;font-weight:900;margin-right:8px}.review p{font-size:13px;color:#60718a}.demo{font-size:10px;border:1px solid #d5a94f;color:#90610d;border-radius:20px;padding:4px 7px}
+.contact{background:linear-gradient(110deg,#061638,#0a3f84);color:white;text-align:center;padding:34px;border-radius:22px}.contact p{color:#d8eaff}
+footer{background:#061638;color:#d5e2f4;text-align:center;padding:28px;margin-top:35px}
+.backdrop{position:fixed;inset:0;background:#06132fce;display:none;align-items:center;justify-content:center;padding:15px;z-index:40}.backdrop.open{display:flex}.modal{background:white;border-radius:18px;padding:22px;width:min(560px,100%);max-height:92vh;overflow:auto}.modalhead{display:flex;justify-content:space-between;align-items:center}.modal h2{margin:0;color:#08234c}.close{border:0;border-radius:50%;width:35px;height:35px;font-size:22px}.field{margin:13px 0}.field label{font-size:13px;font-weight:900;display:block;margin-bottom:6px}.field input{width:100%;padding:11px;border:1px solid #cbd9e9;border-radius:9px}.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:12px 0}.tier{border:1px solid #cbd9e9;border-radius:12px;padding:12px 8px;background:#f7faff;text-align:center;cursor:pointer;color:#17345d}.tier b{display:block;font-size:19px}.tier.selected{border:3px solid #10b94b;background:#eafff0}.paychoices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.paychoices .pay{padding:9px 4px;font-size:11px;border:1px solid #d4e1ef;transition:.15s}.paychoices .paylogo{width:100%;max-width:125px;height:54px;font-size:11px}.paychoices .paylogo img{padding:2px}.summary{background:#eafff1;border-radius:10px;padding:12px;font-size:20px;font-weight:950;color:#087e43;margin:12px 0}.hint{font-size:12px;color:#68778c}
+@media(max-width:740px){.navlinks{display:none}.hero-inner{grid-template-columns:1fr;padding:42px 0}.hero-art{min-height:180px}.play{width:160px;height:110px;font-size:50px}.grid{grid-template-columns:1fr}.reviewgrid{grid-template-columns:1fr}.paygrid{grid-template-columns:repeat(2,1fr)}.poster{height:225px}.tiers{grid-template-columns:1fr}.paychoices{grid-template-columns:repeat(3,1fr)}}
+
+.service-reviews{border-top:1px solid #e3ebf5;background:linear-gradient(180deg,#f9fcff,#f2f8ff);padding:17px 20px 20px}.service-reviews h4{margin:0 0 12px;color:#09275c;font-size:16px}.review-mini{display:flex;gap:11px;align-items:flex-start;background:#fff;border:1px solid #e0e9f3;border-radius:13px;padding:12px;margin-top:9px}.review-avatar{width:40px;height:40px;flex:0 0 40px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#087be5,#16c94d);color:#fff;font-weight:900}.review-copy{min-width:0}.review-copy b{font-size:13px;color:#17345d}.review-copy .stars{color:#e6a400;letter-spacing:2px;font-size:13px}.review-copy p{margin:3px 0 5px;font-size:12px;color:#62718a}.review-demo{font-size:9px;font-weight:900;letter-spacing:.6px;color:#93630a;background:#fff6df;border:1px solid #edd49a;padding:3px 6px;border-radius:20px;display:inline-block}
+
+/* Promotional poster upgrade: bold headline, spotlight, graphic motifs and price strips */
+.poster{height:310px;padding:22px 24px;background-size:cover}
+.poster .ptop{display:inline-block;align-self:flex-start;background:#ffffff20;border:1px solid #ffffff75;border-radius:5px;padding:5px 9px;letter-spacing:1.3px}
+.poster h3{font-size:clamp(30px,3.8vw,43px);max-width:76%;line-height:.93;text-shadow:0 3px 5px #00112f88}
+.poster .metric{font-size:17px;line-height:1.25;background:#061638b8;border-left:4px solid #7cff36;padding:9px 11px;border-radius:5px;max-width:82%;box-shadow:0 5px 16px #00102f44}
+.poster .pfoot{background:#f9d923;color:#081a3d;border:0;border-radius:3px;font-size:13px;padding:9px 13px;box-shadow:0 4px 0 #9d6b00}
+.poster-icon{font-size:90px;right:24px;bottom:50px;text-shadow:0 7px 10px #00102f99}
+.poster:before{width:300px;height:300px;right:-65px;top:-95px;border:2px solid #ffffff65;box-shadow:0 0 0 18px #ffffff15,0 0 0 40px #ffffff0b}
+.poster:after{right:0;bottom:0;width:48%;height:130px;background:linear-gradient(135deg,#ffffff00,#ffffff30);clip-path:polygon(0 100%,20% 65%,37% 82%,58% 20%,75% 50%,100% 0,100% 100%)}
+.p1{background:radial-gradient(circle at 83% 65%,#ff424b 0 13%,transparent 14%),linear-gradient(125deg,#041a48,#087ce4 55%,#53108e)}
+.p2{background:radial-gradient(circle at 84% 65%,#187be9 0 18%,transparent 19%),linear-gradient(125deg,#034d50,#08a7a4 53%,#071f5a)}
+.p3{background:radial-gradient(circle at 83% 67%,#ff3c48 0 16%,transparent 17%),linear-gradient(125deg,#24105b,#7629b9 55%,#056cb3)}
+.p4{background:radial-gradient(circle at 83% 67%,#ffcf36 0 15%,transparent 16%),linear-gradient(125deg,#76113c,#d12c78 54%,#382077)}
+.p5{background:radial-gradient(circle at 83% 65%,#f7d83b 0 15%,transparent 16%),linear-gradient(125deg,#053e78,#087fce 55%,#202276)}
+.p6{background:radial-gradient(circle at 83% 65%,#fff 0 14%,transparent 15%),linear-gradient(125deg,#70380e,#c47b1e 55%,#57216d)}
+.p7{background:radial-gradient(circle at 83% 65%,#70ff9c 0 15%,transparent 16%),linear-gradient(125deg,#034d3c,#13a66d 55%,#11356d)}
+.p8{background:radial-gradient(circle at 83% 65%,#48e6ff 0 15%,transparent 16%),linear-gradient(125deg,#101d64,#137bb0 55%,#482078)}
+.p9{background:radial-gradient(circle at 83% 65%,#ffb1df 0 15%,transparent 16%),linear-gradient(125deg,#541343,#b12d72 55%,#152f75)}
+.p10{background:radial-gradient(circle at 83% 65%,#71ffad 0 15%,transparent 16%),linear-gradient(125deg,#0d3c67,#178ab1 55%,#3e207e)}
+.poster-icon{background:#ffffff20;border:2px solid #ffffff88;width:118px;height:118px;border-radius:24px;display:grid;place-items:center;transform:rotate(7deg);backdrop-filter:blur(3px)}
+.review-demo-name{font-size:9px;font-weight:900;letter-spacing:.5px;color:#98640a;background:#fff5d9;border:1px solid #edd08a;padding:3px 6px;border-radius:20px}
+.paylogo{font-size:13px!important;letter-spacing:-.4px;border:1px solid #dce6f3;box-shadow:inset 0 0 0 2px #fff}
+
+@media(max-width:740px){.poster{height:275px}.poster h3{font-size:33px}.poster-icon{width:95px;height:95px;font-size:72px}}
+
+
+/* Updated poster-led service catalogue */
+.poster-card{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 12px 30px #09285815;}
+ .poster-card>img{display:block;width:100%;height:auto;max-height:760px;aspect-ratio:auto;object-fit:contain;object-position:center;background:#f8fbff;padding:8px;}
+.poster-card-body{padding:18px 19px 20px}.poster-card-body h3{margin:0 0 7px;color:#08234c;font-size:21px}.poster-card-body>p{margin:0 0 14px;color:#61728b;font-size:13px}
+.offer-list{display:grid;gap:9px}.offer{display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid #d8e6f5;border-radius:12px;padding:11px 12px;background:linear-gradient(100deg,#f7fbff,#f1fff6)}.offer strong{display:block;color:#112d5a;font-size:14px}.offer small{display:block;color:#718096;font-size:11px;margin-top:2px}.offer .offer-price{font-size:21px;font-weight:950;color:#087e43;white-space:nowrap}.offer .btn{padding:9px 12px;font-size:12px;white-space:nowrap}.quote-note{margin-top:12px;padding:10px 12px;border-radius:10px;background:#fff8e6;color:#78520a;font-size:12px;font-weight:700}
+.service-note{font-size:12px;color:#65758b;margin-top:18px;text-align:center}
+@media(max-width:740px){.poster-card>img{width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;padding:5px}.poster-card-body{padding:15px}.offer{flex-wrap:wrap}.offer .btn{margin-left:auto}}
+
+/* Final responsive refresh: showcase original posters in full, redesign hero */
+.hero{background:radial-gradient(ellipse at 78% 35%,#126fe0 0%,#082b68 42%,#04132f 78%);}
+.hero-inner{padding:54px 0 62px;grid-template-columns:1fr 1fr;gap:34px;min-height:470px;}
+.hero h1{font-size:clamp(38px,5vw,64px);letter-spacing:-1.8px;max-width:690px;}
+.hero p{font-size:clamp(16px,1.7vw,20px);line-height:1.75;}
+.hero-art{min-height:360px;}
+.hero-art img{display:block;width:100%;max-width:540px;height:auto;max-height:410px;object-fit:contain;filter:drop-shadow(0 22px 30px #0008);border-radius:22px;}
+.hero:after{background:linear-gradient(115deg,transparent 48%,#16c8ff12 48%,transparent 75%);}
+.poster-card>img{width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;display:block;background:#fff;padding:0;}
+.poster-card{align-self:start;}
+.poster-card-body{padding:19px 20px 22px;}
+#services .grid{align-items:start;}
+#website-design .poster-card-body{background:linear-gradient(120deg,#f4faff,#f2fff7);}
+@media(max-width:740px){.hero-inner{grid-template-columns:1fr;padding:34px 0 42px;gap:12px;min-height:0}.hero-art{min-height:0;margin-top:10px}.hero-art img{max-width:100%;max-height:none;width:100%;}.hero h1{font-size:clamp(36px,10vw,50px)}.poster-card>img{max-height:none;height:auto;padding:0}.poster-card-body{padding:15px}.grid{grid-template-columns:1fr}}
+
+
+.admin-open{border:1px solid #cbd9e9;background:#f5f9ff;color:#09275c;border-radius:22px;padding:10px 14px;font-weight:900;cursor:pointer}.admin-footer{border:0;background:transparent;color:#9fc5ff;text-decoration:underline;cursor:pointer;font:inherit}.admin-backdrop{display:none;position:fixed;inset:0;background:#06132fdb;z-index:100;padding:16px;align-items:center;justify-content:center}.admin-backdrop.open{display:flex}.admin-panel{width:min(920px,100%);max-height:94vh;overflow:auto;background:#fff;border-radius:20px;padding:22px;box-shadow:0 25px 80px #0007}.admin-head{display:flex;align-items:center;justify-content:space-between;gap:15px}.admin-head small{font-weight:900;letter-spacing:1.5px;color:#0b9e65}.admin-head h2{margin:3px 0 10px;color:#09275c}.admin-warning{background:#fff5df;border:1px solid #f1d28b;color:#6c4a00;border-radius:10px;padding:12px;font-size:13px}.admin-help{background:#eef7ff;border-radius:10px;padding:12px;margin:12px 0;color:#244363;font-size:13px}.admin-label{display:block;font-weight:900;color:#102448;margin:14px 0 7px}.admin-panel textarea{width:100%;min-height:360px;resize:vertical;border:1px solid #b9cbe0;border-radius:12px;padding:14px;font:12px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace;color:#102448;background:#f8fbff}.admin-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:13px}.admin-status{font-size:13px;color:#60718a}.admin-panel .close{cursor:pointer}@media(max-width:740px){.admin-open{padding:9px 10px;font-size:12px}.admin-panel{padding:15px}.admin-panel textarea{min-height:300px}}
+
+/* 2026 visual refresh */
+body{background:linear-gradient(180deg,#f4f8ff 0%,#edf5ff 45%,#f8fbff 100%);color:#102448}
+header{background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid #e4ecf7}
+.nav{min-height:82px}.brand{font-size:22px;letter-spacing:-.5px}.brand:before{content:"S";display:inline-grid;place-items:center;width:42px;height:42px;margin-right:10px;border-radius:14px;color:#fff;background:linear-gradient(145deg,#0a3d8b,#09b9a5);box-shadow:0 7px 18px #0b4b8b35;vertical-align:middle;font-weight:1000}
+.navlinks a{padding:9px 12px;border-radius:22px;transition:.2s}.navlinks a:hover{background:#eaf3ff;color:#0755bd}
+.hero{background:radial-gradient(ellipse at 78% 28%,#0d7bd5 0%,#0a367b 36%,#061638 76%);}
+.hero-inner{padding:68px 0;min-height:520px}.hero h1{letter-spacing:-1.6px;text-shadow:0 5px 22px #00112f55}.hero p{font-size:clamp(17px,1.8vw,20px);line-height:1.8}.hero-art img{border:1px solid #8ac8ff55;box-shadow:0 24px 70px #00102f88,0 0 0 8px #ffffff0a}
+.btn{box-shadow:0 8px 20px #08a95a25;transition:transform .18s,box-shadow .18s}.btn:hover{transform:translateY(-2px);box-shadow:0 12px 26px #087cbd35}
+section{padding:64px 0}.heading{margin-bottom:34px}.heading small{letter-spacing:3px}.heading h2{letter-spacing:-.8px}.heading p{max-width:720px;margin:8px auto 0;line-height:1.7}
+#services{background:linear-gradient(180deg,#f4f8ff,#eaf3ff 55%,#f8fbff)}
+.poster-card{border-radius:22px;border:1px solid #d9e5f5;box-shadow:0 16px 40px #09285817;transition:transform .2s,box-shadow .2s}.poster-card:hover{transform:translateY(-4px);box-shadow:0 22px 48px #09285824}
+.poster-card>img{background:#fff;object-fit:contain;object-position:center;width:100%;height:auto;max-height:none;padding:0}.poster-card-body h3{font-size:23px;letter-spacing:-.4px}.poster-card-body p{line-height:1.75}.offer{border-radius:15px;background:linear-gradient(110deg,#f4f9ff,#f0fff7);border:1px solid #d9e7f3;padding:13px 14px}.offer .btn{white-space:nowrap}
+#reviews{background:radial-gradient(ellipse at top,#0b3c85,#061638 72%);color:#fff}#reviews .heading h2{color:#fff}#reviews .heading p{color:#c9dcf5}
+.reviewgrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.review{border:1px solid #d8e6f8;border-radius:18px;padding:20px;background:linear-gradient(145deg,#fff,#f3f8ff);box-shadow:0 10px 26px #00112f25;color:#102448}.review-person{display:flex;align-items:center;gap:11px}.review-person b{font-size:14px}.review .avatar{width:48px;height:48px;flex:0 0 48px;margin:0;border:3px solid #fff;box-shadow:0 4px 12px #09285825;font-size:15px}.review .stars{color:#e9a600;letter-spacing:2px;font-size:14px}.review p{font-size:14px;line-height:1.7;min-height:72px}.review-demo{font-size:9px}.reviewgrid .review:nth-child(3n+2) .avatar{background:linear-gradient(135deg,#7b36c7,#e35a9b)}.reviewgrid .review:nth-child(3n) .avatar{background:linear-gradient(135deg,#087be5,#11b98b)}
+#contact{background:linear-gradient(180deg,#f8fbff,#eaf3ff)}.contact{background:radial-gradient(circle at 85% 10%,#0c74c7,#08285e 65%,#061638);box-shadow:0 18px 40px #09285825}
+footer{margin-top:0;border-top:1px solid #21477a}
+@media(max-width:740px){.nav{min-height:72px}.brand{font-size:18px}.brand:before{width:36px;height:36px;margin-right:7px}.hero-inner{padding:42px 0 48px}.hero-art img{border-radius:16px}.reviewgrid{grid-template-columns:1fr}.review p{min-height:0}section{padding:48px 0}}
+
+</style></head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#">↗ Sirat Grow It <span>Agency</span></a><nav class="navlinks"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav><div style="display:flex;gap:8px;align-items:center"><a class="wa" id="headerWa" href="https://wa.me/8801913022305">☏ Chat on WhatsApp</a></div></div></header>
+<div class="hero"><div class="wrap hero-inner"><div><div class="kicker">Creative • Content • Digital Growth</div><h1>Grow Your Online Presence with <span>Professional Services!</span></h1><p>Channel guidance, video editing, social media support and professional website design for creators and businesses.</p><div class="checks"><span>Clear Service Details</span><span>Custom Website Quotes</span><span>Direct WhatsApp Support</span></div><a class="btn" href="#services">Explore Services ↓</a></div><div class="hero-art"><img src="assets/hero-digital-growth.jpg" alt="Digital growth illustration with laptop and social media icons" fetchpriority="high"></div></div></div>
+<section id="services"><div class="wrap"><div class="heading"><small>OUR SERVICES</small><h2>Choose Your Service</h2><p>Browse the latest service posters, select a package and place your order directly through WhatsApp.</p></div><div class="grid" id="servicesGrid"></div><p class="service-note">All campaigns are subject to platform rules and account eligibility. No guaranteed reach, monetization approval or audience results are implied.</p></div></section>
+<section id="reviews"><div class="wrap"><div class="heading"><small>CLIENT FEEDBACK</small><h2>Customer Reviews</h2><p>Sample review layout — replace these examples with genuine customer feedback before publishing.</p></div><div class="reviewgrid" id="reviewGrid"></div><div style="text-align:center;margin-top:20px"><a class="btn" href="https://wa.me/8801913022305?text=Hello%20Sirat%20IT%20Agency%2C%20I%20would%20like%20to%20share%20my%20genuine%20review.">Share Your Genuine Review</a></div></div></section>
+<section id="contact"><div class="wrap"><div class="contact"><h2>Let's Grow Together!</h2><p>WhatsApp: 01913022305 · Email: siratakanda06@gmail.com · Kishoreganj, Bangladesh</p><a class="btn" href="https://wa.me/8801913022305">Chat on WhatsApp Now</a></div></div></section>
+<footer>© 2026 Sirat Grow It Agency · All rights reserved</footer>
+<div class="backdrop" id="backdrop"><div class="modal"><div class="modalhead"><h2>Place Your Order</h2><button class="close" id="close" aria-label="Close">×</button></div><p id="serviceName" class="hint"></p><div class="field"><label for="quantity">Quantity</label><input id="quantity" type="number" min="1" max="100" value="1"></div><div class="field"><label for="buyer">Your name (optional)</label><input id="buyer" placeholder="Your name"></div><div class="summary" id="summary">Total: $0</div><b>Select a payment method</b><p class="hint" style="margin:5px 0 10px">Payment options appear here after you choose a service package.</p><div class="paychoices" id="payChoices"></div><p class="hint">Choose one of the payment methods below. Your service, selected package, total and payment choice will be sent to WhatsApp. We will confirm the recipient details before you pay.</p><button class="btn" id="whatsOrder" style="width:100%">Contact on WhatsApp to Order →</button></div></div>
+
+<div class="admin-backdrop" id="adminBackdrop" aria-hidden="true"><section class="admin-panel" role="dialog" aria-modal="true" aria-labelledby="adminTitle"><div class="admin-head"><div><small>WEBSITE CONTROL CENTER</small><h2 id="adminTitle">Sirat IT Agency · Admin Panel</h2></div><button id="adminClose" class="close" aria-label="Close">×</button></div><p class="admin-warning"><b>Private owner shortcut:</b> this static demo panel saves changes in this browser only. The PIN gate is not production-grade security; use a server-side login and database before putting sensitive admin controls online.</p><div class="admin-help"><b>What you can edit:</b> service names, descriptions, poster image paths, package names/prices, quote-only services, payment methods/images, review text, WhatsApp number and contact details.</div><label class="admin-label" for="adminJson">Website settings (JSON)</label><textarea id="adminJson" spellcheck="false"></textarea><div class="admin-actions"><button class="btn" id="adminSave" type="button">Save Changes</button><button class="btn light" id="adminReset" type="button">Reset to Original</button><button class="btn dark" id="adminExport" type="button">Download Settings</button></div><p id="adminStatus" class="admin-status" role="status">Tip: Keep image paths inside the website's assets folder, e.g. assets/youtube-services.png</p></section></div>
+<script>
+const DEFAULT_WA="8801913022305";
+const DEFAULT_METHODS=[
+ ["bKash","assets/bkash.png"],["Nagad","assets/nagad.png"],["Rocket","assets/rocket.png"],
+ ["Bank Account","assets/bank-account.png"],["Visa Card","assets/visa.png"],["Binance","assets/binance.png"],
+ ["Western Union","assets/western-union.png"],["Ria Money Transfer","assets/ria.png"],["Payoneer","assets/payoneer.png"],["PayPal","assets/paypal.png"],["MoneyGram","assets/moneygram.png"]
+];
+const DEFAULT_CATEGORIES=[
+ {id:"youtube",name:"YouTube Services",image:"assets/youtube-services.png",intro:"Channel growth packages and monetization eligibility support.",offers:[
+  {id:"yt-hours",name:"4,000 Watch Hours",price:50,unit:"package",detail:"YouTube watch-time package"},
+  {id:"yt-subs",name:"1,000 Subscribers",price:30,unit:"package",detail:"YouTube subscriber package"},
+  {id:"yt-combo",name:"1,000 Subscribers + 4,000 Watch Hours",price:60,unit:"package",detail:"Combined YouTube package"}
+ ]},
+ {id:"yt-sale",name:"YouTube Monetized Channel for Sale",image:"assets/youtube-monetized-channel.png",intro:"Channel listing with 1,000 subscribers and monetization shown as active. Verify ownership, eligibility, strikes and transfer details before purchase.",offers:[
+  {id:"yt-monetized",name:"Monetization ON Channel · 1,000 Subscribers",price:250,unit:"channel",detail:"One monetized YouTube channel"}
+ ]},
+ {id:"facebook",name:"Facebook Services",image:"assets/facebook-services.png",intro:"Facebook page growth, watch-time and monetization support packages.",offers:[
+  {id:"fb-followers",name:"10,000 Followers",price:20,unit:"package"},
+  {id:"fb-watch-600k",name:"600,000 Watch Hours",price:20,unit:"package"},
+  {id:"fb-watch-60k",name:"60,000 Watch Hours",price:15,unit:"package"},
+  {id:"fb-monetization",name:"Facebook Full Monetization Support",price:50,unit:"package"}
+ ]},
+ {id:"spotify",name:"Spotify Services",image:"assets/spotify-services.png",intro:"Spotify profile and music promotion packages.",offers:[
+  {id:"sp-followers",name:"5,000 Spotify Followers",price:20,unit:"package"},
+  {id:"sp-plays",name:"5,000 Spotify Plays",price:10,unit:"package"},
+  {id:"sp-promo",name:"Monthly Listener / Podcast Promotion",price:200,unit:"month",detail:"Monthly promotion service"}
+ ]},
+ {id:"instagram",name:"Instagram Services",image:"assets/instagram-services.png",intro:"Instagram profile and content visibility packages.",offers:[
+  {id:"ig-followers",name:"5,000 Instagram Followers",price:20,unit:"package"},
+  {id:"ig-views",name:"5,000 Instagram Views",price:5,unit:"package"}
+ ]},
+ {id:"tiktok",name:"TikTok Services",image:"assets/tiktok-services.png",intro:"TikTok profile and video visibility packages.",offers:[
+  {id:"tt-followers",name:"5,000 TikTok Followers",price:20,unit:"package"},
+  {id:"tt-views",name:"10 Million TikTok Views",price:10,unit:"package"}
+ ]},
+ {id:"editing",name:"Video Editing & YouTube Creative Services",image:"assets/video-editing-services.png",intro:"Professional editing and channel support for kids education, cartoon/rhyme, animal documentary, world history, war, true crime, sports and faceless channels.",quote:true,offers:[
+  {id:"edit-video",name:"Video Editing",quote:true},
+  {id:"edit-script",name:"Script Writing",quote:true},
+  {id:"edit-thumbnail",name:"Thumbnail Design",quote:true},
+  {id:"edit-seo",name:"SEO Optimization",quote:true},
+  {id:"edit-upload",name:"Upload & Optimization",quote:true}
+ ]},
+ {id:"website-design",name:"Website Design & Development",image:"assets/website-design-services.png",intro:"Need a professional website? We design and build business websites, landing pages, portfolios and online stores. Tell us what you need and receive a custom quote.",quote:true,offers:[
+  {id:"web-business",name:"Business Website Design",quote:true},
+  {id:"web-landing",name:"Landing Page Design",quote:true},
+  {id:"web-ecommerce",name:"E-commerce Website",quote:true},
+  {id:"web-custom",name:"Custom Website Development",quote:true}
+ ]}
+];
+const DEFAULT_REVIEWS=[
+ {name:"Ayesha Rahman · Sample",text:"The team explained the service options clearly and helped me understand the next steps before ordering."},
+ {name:"Rafiul Islam · Sample",text:"The communication was friendly and the package details were easy to understand. A smooth experience."},
+ {name:"Nusrat Jahan · Sample",text:"I liked how simple it was to choose a service and send my request directly through WhatsApp."},
+ {name:"Md. Hasan · Sample",text:"Quick responses to my questions and clear information about the available services and pricing."},
+ {name:"Tariqul Hasan · Sample",text:"The website looks organized, and finding the service I needed was straightforward."},
+ {name:"Sadia Akter · Sample",text:"Helpful support and a clear ordering process. It was easy to ask for a custom quote."},
+ {name:"Imran Hossain · Sample",text:"A convenient way to browse digital services and contact the team without confusion."}
+];
+const DEFAULT_CONFIG={whatsapp:DEFAULT_WA,email:"siratakanda06@gmail.com",location:"Kishoreganj, Bangladesh",categories:DEFAULT_CATEGORIES,methods:DEFAULT_METHODS,reviews:DEFAULT_REVIEWS};
+const STORAGE_KEY="siratGrowItAgencyConfig_v1";
+let config=loadConfig(); let WA=config.whatsapp||DEFAULT_WA, methods=config.methods||DEFAULT_METHODS, categories=config.categories||DEFAULT_CATEGORIES;
+let offers={}, current=null, selected="";
+const grid=document.getElementById("servicesGrid"), backdrop=document.getElementById("backdrop"), qty=document.getElementById("quantity"), payChoices=document.getElementById("payChoices"), whatsOrder=document.getElementById("whatsOrder");
+function loadConfig(){try{const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null");return saved&&Array.isArray(saved.categories)?saved:structuredClone(DEFAULT_CONFIG)}catch(e){return structuredClone(DEFAULT_CONFIG)}}
+function buildOfferMap(){offers={};categories.forEach(c=>(c.offers||[]).forEach(o=>offers[o.id]={...o,category:c.name}));}
+function renderServices(){grid.innerHTML="";buildOfferMap();categories.forEach(c=>{const card=document.createElement("article");card.className="poster-card";const rows=(c.offers||[]).map(o=>`<div class="offer"><div><strong>${escapeHtml(o.name)}</strong><small>${o.quote?"Contact for a custom quote":(o.unit==="month"?"Monthly service":"Fixed package price")}</small></div>${o.quote?`<button class="btn quote" type="button" data-id="${escapeAttr(o.id)}">Get Quote</button>`:`<span class="offer-price">${money(o.price)}${o.unit==="month"?"/mo":""}</span><button class="btn order" type="button" data-id="${escapeAttr(o.id)}">Order Now</button>`}</div>`).join("");card.innerHTML=`<img src="${escapeAttr(c.image||"")}" alt="${escapeAttr(c.name)} promotional poster" loading="lazy"><div class="poster-card-body"><h3>${escapeHtml(c.name)}</h3><p>${escapeHtml(c.intro||"")}</p><div class="offer-list">${rows}</div></div>`;grid.appendChild(card)})}
+function renderPayments(){document.getElementById("payGrid").innerHTML=methods.map(payButton).join("")}
+function renderReviews(){const rg=document.getElementById("reviewGrid");rg.innerHTML=(config.reviews||[]).map((r,i)=>{const initials=String(r.name||"Client").replace(/·.*$/,'').trim().split(/\s+/).slice(0,2).map(x=>x[0]||'').join('').toUpperCase();return `<article class="review"><div class="review-person"><span class="avatar">${escapeHtml(initials||'C')}</span><div><b>${escapeHtml(r.name||"Client")}</b><div class="stars" aria-label="5 out of 5 stars">★★★★★</div></div></div><p>“${escapeHtml(r.text||"")}”</p><span class="review-demo">${r.verified?"CLIENT REVIEW":"SAMPLE · REPLACE WITH REAL FEEDBACK"}</span></article>`}).join("")}
+function renderContact(){const p=document.querySelector("#contact .contact p");if(p)p.textContent=`WhatsApp: +${WA} · Email: ${config.email||""} · ${config.location||""}`;document.querySelectorAll("#contact .btn,#headerWa,#reviews .btn").forEach(a=>a.href=`https://wa.me/${WA}`);}
+function renderAll(){renderServices();renderReviews();renderContact()}
+function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function escapeAttr(v){return escapeHtml(v).replace(/`/g,"&#96;")}
+function money(v){const n=Number(v);return Number.isFinite(n)?`$${n}`:"Contact"}
+function payButton([name,src]){return `<button class="pay" type="button" data-method="${escapeAttr(name)}"><span class="paylogo"><img src="${escapeAttr(src)}" alt="${escapeAttr(name)} logo" loading="lazy"></span>${escapeHtml(name)}<small>WhatsApp order</small></button>`}
+renderAll();
+function update(){const q=Math.max(1,Math.min(100,parseInt(qty.value||"1",10)));qty.value=q;document.getElementById("summary").textContent=`Total: ${money(current.price*q)}${current.unit==="month"?" / month":""}`}
+function openOrder(id){current=offers[id];if(!current)return;selected="";document.getElementById("serviceName").textContent=`${current.category} · ${current.name}`;document.getElementById("buyer").value="";qty.value=1;update();payChoices.innerHTML=methods.map(payButton).join("");document.getElementById("summary").style.display="block";payChoices.style.display="grid";whatsOrder.disabled=true;whatsOrder.style.opacity=".55";backdrop.classList.add("open")}
+function requestQuote(id){const o=offers[id];if(!o)return;const msg=`Hello Sirat Grow It Agency, I would like a quotation for: ${o.name}. Please share the available packages and price.`;window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`,"_blank")}
+grid.addEventListener("click",e=>{const order=e.target.closest(".order"),quote=e.target.closest(".quote");if(order)openOrder(order.dataset.id);if(quote)requestQuote(quote.dataset.id)});
+payChoices.addEventListener("click",e=>{const b=e.target.closest("[data-method]");if(!b)return;selected=b.dataset.method;payChoices.querySelectorAll(".pay").forEach(x=>{x.style.outline=x===b?"3px solid #12bd4c":"none";x.style.background=x===b?"#eafff0":"#fff";x.setAttribute("aria-pressed",x===b?"true":"false")});whatsOrder.disabled=false;whatsOrder.style.opacity="1"});
+qty.addEventListener("input",()=>{if(current)update()});document.getElementById("close").onclick=()=>backdrop.classList.remove("open");backdrop.addEventListener("click",e=>{if(e.target===backdrop)backdrop.classList.remove("open")});
+whatsOrder.onclick=()=>{if(!current||!selected)return;const q=Math.max(1,Math.min(100,parseInt(qty.value||"1",10))),buyer=document.getElementById("buyer").value.trim(),total=Number(current.price)*q;const msg=["Hello Sirat Grow It Agency,","","I would like to place an order:",`Service: ${current.category} — ${current.name}`,`Quantity: ${q}`,`Unit price: ${money(current.price)}${current.unit==="month"?" per month":""}`,`Total: ${money(total)}${current.unit==="month"?" per month":""}`,`Payment method: ${selected}`,`Name: ${buyer||"Not provided"}`,"","Please confirm availability and share the payment instructions."].join("\n");window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`,"_blank")};
+// Admin panel: browser-local configuration editor. Production authentication requires a server.
+const adminBackdrop=document.getElementById("adminBackdrop"),adminJson=document.getElementById("adminJson"),adminStatus=document.getElementById("adminStatus");
+function openAdmin(){adminJson.value=JSON.stringify(config,null,2);adminBackdrop.classList.add("open");adminBackdrop.setAttribute("aria-hidden","false")}
+function closeAdmin(){adminBackdrop.classList.remove("open");adminBackdrop.setAttribute("aria-hidden","true")}
+// Hidden owner entry: append #owner to the website URL, then enter the owner PIN.
+const OWNER_PIN="SGIA-OWNER-2026";
+function ownerGate(){if(location.hash!=="#owner")return;const pin=prompt("Owner access only. Enter your admin PIN:");if(pin===OWNER_PIN){openAdmin()}else{history.replaceState(null,"",location.pathname+location.search);alert("Access denied.")}}
+window.addEventListener("hashchange",ownerGate);ownerGate();
+document.getElementById("adminClose").onclick=closeAdmin;adminBackdrop.addEventListener("click",e=>{if(e.target===adminBackdrop)closeAdmin()});
+document.getElementById("adminSave").onclick=()=>{try{const next=JSON.parse(adminJson.value);if(!Array.isArray(next.categories)||!Array.isArray(next.methods))throw new Error("categories ও methods অবশ্যই array হতে হবে");for(const c of next.categories){if(!c.id||!c.name||!Array.isArray(c.offers))throw new Error("প্রতিটি service-এ id, name, offers দিন")}for(const m of next.methods){if(!Array.isArray(m)||m.length<2)throw new Error("প্রতিটি payment method [নাম, image path] আকারে দিন")}config=next;localStorage.setItem(STORAGE_KEY,JSON.stringify(config));WA=config.whatsapp||DEFAULT_WA;methods=config.methods;categories=config.categories;renderAll();adminStatus.textContent="Saved! এই ব্রাউজারে আপনার পরিবর্তন সংরক্ষিত হয়েছে। Live সাইটের সব visitor-কে দেখাতে backend প্রয়োজন।";adminStatus.style.color="#087e43"}catch(err){adminStatus.textContent="Save হয়নি: "+err.message;adminStatus.style.color="#b42318"}};
+document.getElementById("adminReset").onclick=()=>{if(!confirm("সব local পরিবর্তন মুছে original settings ফিরিয়ে আনবেন?"))return;localStorage.removeItem(STORAGE_KEY);config=structuredClone(DEFAULT_CONFIG);WA=config.whatsapp;methods=config.methods;categories=config.categories;adminJson.value=JSON.stringify(config,null,2);renderAll();adminStatus.textContent="Original settings restored.";adminStatus.style.color="#087e43"};
+document.getElementById("adminExport").onclick=()=>{const blob=new Blob([JSON.stringify(config,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="sirat-agency-settings.json";a.click();URL.revokeObjectURL(url)};
+</script></body></html>
